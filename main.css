@@ -1,0 +1,15 @@
+/* Remove margin and padding from everything */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Default */
+html {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.7;
+    background-color: #fff;
+}
+
