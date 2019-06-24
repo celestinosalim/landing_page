@@ -107,7 +107,7 @@ body {
 /* SECTION 1 */
 .section-1 {
     position: absolute;
-    top: 75%;
+    top: 59%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -115,7 +115,7 @@ body {
 
 .section-1-learn-div {
     position: relative;
-    top: 1.9vh;
+    top: 6vh;
 }
 #section-1-learn-text {
     text-transform: uppercase;
@@ -140,6 +140,7 @@ body {
     top: .7rem;
     width: 8%;
 }
+
 
 
 /* SECTION 2 */
