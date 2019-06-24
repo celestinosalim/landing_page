@@ -121,7 +121,7 @@ body {
 
 .section-1-arrow-div {
     position: absolute;
-    top: 9.5vh;
+    top: 17.5vh;
 }
 
 #section-1-arrow {
@@ -163,12 +163,13 @@ body {
         margin: 2em; 
     }
 
-    
+    .section-1-arrow-div {
+        top: 25.5vh;
+    }
 
     .section-2 p{
         margin-left: 25%;
         width: 50vw;
     }
-
-
 }
+
