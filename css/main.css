@@ -10,9 +10,11 @@ html {
     font-weight: 400;
     font-size: 10px;
     line-height: 1.7;
-    background-color: #fff;
-    overflow: hidden;
+}
 
+body {
+    background-color: #fff;
+    overflow: hidden; 
 }
 
 /* HEADER */
@@ -23,6 +25,7 @@ html {
     height: 96vh;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     z-index: -3;
+    
 }
 
 .bg1 {
@@ -76,7 +79,7 @@ html {
     display: block;
     position: relative;
     transform: translateX(-17%);
-    
+
 }
 
 #input-text {
@@ -93,7 +96,7 @@ html {
     text-decoration: none;
     color: #fff;
     background-color:#81D398;
-    padding: .8rem .8rem;
+    padding: 1rem;
     display: inline-block;
     border-radius: 5px;
 }
@@ -101,3 +104,42 @@ html {
 #input-text::placeholder {
     padding-left: 1.3rem;
 }
+
+.section-1 {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.learn-div {
+    position: relative;
+    top: 1.9vh;
+}
+#learn-text {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.822); 
+    white-space: nowrap;
+}
+
+.arrow-div {
+    position: absolute;
+    top: 9.5vh;
+}
+
+#arrow {
+    background-color:#81D398;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+#arrow-img{ 
+    position: relative;
+    top: .7rem;
+    width: 8%;
+}
+
+
+
