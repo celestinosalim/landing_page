@@ -56,7 +56,6 @@ input#menu {
 
 .navbar ul {
     list-style-type: none;
-    
 }
 
 .navbar a {
@@ -81,7 +80,6 @@ input:checked ~ .menu-content {
 }
 
 
-
 /* HEADER */
 .header{
     background: 
@@ -89,10 +87,10 @@ input:checked ~ .menu-content {
     155deg,
     #742ED1 20%,
     #7448D7 20%,
-    #7448D7 50%,
-    #736EDF 50.1%,
-    #736EDF 75%,
-    #fff 75.1%
+    #7448D7 56%,
+    #736EDF 56.1%,
+    #736EDF 76%,
+    #fff 76.1%
   );;
     position: relative;
     background-position: top;
@@ -102,7 +100,7 @@ input:checked ~ .menu-content {
 
 .text-box {
     position: absolute;
-    top: 30%;
+    top: 32%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -163,11 +161,11 @@ input:checked ~ .menu-content {
 
 .section-1-learn-div {
     position: relative;
-    top: 6vh;
+    top: 9vh;
 }
 #section-1-learn-text {
     text-transform: uppercase;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: rgba(255, 255, 255, 0.822); 
     white-space: nowrap;
 }
