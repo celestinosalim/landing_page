@@ -254,6 +254,7 @@ input:checked ~ .menu-content {
     width: 100%;
     min-height: 20rem;
     justify-content: center;
+    display: flex;
 }
 
 .card {
@@ -293,3 +294,16 @@ input:checked ~ .menu-content {
     font-size: 1.2rem;
     
 }
+
+#card-2 {
+    top: 17.5rem;
+}
+
+#card-3 {
+    top: 33rem;
+}
+
+#card-4 {
+    top: 48.6rem;
+}
+
