@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background-color: #fff;   
+    background-color: #fff;  
 }
 
 .btn-purple {
@@ -177,12 +177,15 @@ body {
 
     html {
         font-size: 16px;
+        margin: 2em; 
     }
 
-    /* .section-2 p{
+    
+
+    .section-2 p{
         margin-left: 25%;
         width: 50vw;
-    } */
+    }
 
 
 }
