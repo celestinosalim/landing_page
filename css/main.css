@@ -32,13 +32,13 @@ body {
 .header{
     background: 
     linear-gradient(
-    150deg,
+    155deg,
     #742ED1 20%,
     #7448D7 20%,
     #7448D7 50%,
     #736EDF 50.1%,
     #736EDF 75%,
-    white 75.1%
+    #fff 75.1%
   );;
     position: relative;
     background-position: top;
@@ -121,7 +121,7 @@ body {
 
 .section-1-arrow-div {
     position: absolute;
-    top: 17.5vh;
+    top: 18.5vh;
 }
 
 #section-1-arrow {
@@ -171,5 +171,6 @@ body {
         margin-left: 25%;
         width: 50vw;
     }
+    
 }
 
