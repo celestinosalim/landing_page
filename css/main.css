@@ -73,6 +73,12 @@ input:checked ~ .menu-content {
     max-height: 100%;
 }
 
+#nav-link-support {
+    background-color: #81D398;
+    padding: .6rem;
+    border-radius: .3rem;
+
+}
 
 
 
@@ -222,9 +228,6 @@ input:checked ~ .menu-content {
         margin-left: 25%;
         width: 50vw;
     }
-    
-    
-
 
 }
 
