@@ -229,3 +229,67 @@ input:checked ~ .menu-content {
 
 }
 
+
+.section-3 {
+    margin: 3.5rem 2rem;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1rem;    
+}
+
+#title span{
+    opacity: 0.4;
+}
+
+.bar {
+    width: 3rem;
+    display: inline-block;
+    height: .2rem;
+    background: #717479;
+}
+
+.cards-container {
+    position: relative;
+    padding: 2rem 0rem;
+    width: 100%;
+    min-height: 20rem;
+    justify-content: center;
+}
+
+.card {
+    position: absolute;
+    top: 2rem;
+    padding: 4rem 0rem;
+    text-align: left;
+    background: #F5F9FC;
+    border-radius: .7rem;
+    width: 28rem;
+    box-shadow: .1rem 0 0 .1rem #eee;
+}
+
+.card-image{
+    display: inline;
+}
+
+.card-image img {
+    display: inline-block;
+    width: 20%;
+}
+
+.card-content {
+    position: absolute;
+    left: 7rem;
+    top: 3rem;
+}
+
+.card-content span {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.card-content p {
+    font-size: 1.2rem;
+    
+}
