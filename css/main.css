@@ -17,22 +17,46 @@ body {
     background-color: #fff;   
 }
 
+.btn-purple {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .9rem;
+    color: #fff;
+    border-radius: .7rem;
+    padding: .5rem;
+    background: #736EDF;
+}
+
 /* HEADER */
-.header{
-    background: 
-    linear-gradient(
-    150deg,
-    #742ED1 20%,
-    #7448D7 20%,
-    #7448D7 50%,
-    #736EDF 50.1%,
-    #736EDF 75%,
-    white 75.1%
-  );;
+.header {
+    background: #7448D7;
     position: relative;
     background-position: top;
     height: 96vh;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    z-index: -3;
+    
+}
+
+.bg1 {
+    position: absolute;
+    top: 0;
+    background: #742ED1;
+    clip-path: polygon(80% 0, 0 0, 0 100%);    
+    width: 100%;
+    height: 20vh;
+    z-index: -2;
+}
+
+.bg2 {
+    position: absolute;
+    background: #736EDF;
+    bottom: 0;
+    clip-path: polygon(0 74%, 100% 50%, 100% 100%, 0% 100%);
+    width: 100%;
+    height: 85vh;
+    z-index: -1;
 }
 
 .text-box {
@@ -47,7 +71,7 @@ body {
     color: #fff;
     backface-visibility: hidden;
     margin-bottom: 2rem;
-    font-size: 2.1rem;
+    font-size: 2.1rem; 
 }
 
 .heading-primary-main {
@@ -96,7 +120,7 @@ body {
 /* SECTION 1 */
 .section-1 {
     position: absolute;
-    top: 59%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -104,7 +128,7 @@ body {
 
 .section-1-learn-div {
     position: relative;
-    top: 6vh;
+    top: 1.9vh;
 }
 #section-1-learn-text {
     text-transform: uppercase;
@@ -138,35 +162,16 @@ body {
     font-size: 1.3rem;
 }
 
-#section-2-text {
-    opacity: 0.4;
-    display: block;
+
+.section-2-text p {
+    opacity: 0.5;
 }
 
-#section-2-text p {
-    margin: 0;
-    padding: 0;
+.section-2-btn {
+    margin-top: 1.5rem;
 }
-
-
-
 
 /* MEDIA QUERIES */
-
-@media(min-width: 400px) {
-
-    .header{
-        background: linear-gradient(
-            170deg,
-            #742dd0 14.9%,
-            #754ede 15%,
-            #754ede 59.9%,
-            #726edf 60%,
-            #726edf 70.8%,
-            white 70.9%
-      );;
-    }
-}
 
 @media (min-width: 600px) {
 
@@ -174,17 +179,6 @@ body {
         font-size: 16px;
     }
 
-    .header{
-        background: linear-gradient(
-            170deg,
-            #742dd0 14.9%,
-            #754ede 15%,
-            #754ede 59.9%,
-            #726edf 60%,
-            #726edf 70.8%,
-            white 70.9%
-      );;
-    }
     /* .section-2 p{
         margin-left: 25%;
         width: 50vw;
