@@ -11,6 +11,7 @@ html {
     font-size: 10px;
     line-height: 1.7;
     overflow-x: hidden;
+    
 }
 
 body {
@@ -35,11 +36,12 @@ a{
 /* NAVBAR */
 
 .navbar {
-    overflow: hidden;
     text-align: left;
     padding: 1.5rem;
     font-size: 1.3rem;
-    color: #fff;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
 }
 
 .navbar label {
@@ -55,11 +57,13 @@ input#menu {
 }
 
 .navbar ul {
+    padding: 1rem;
+    /* background-color: #eee; */
     list-style-type: none;
 }
 
 .navbar a {
-    color: #fff;
+    color: rgb(196, 193, 243);
     display: inline-block;
 }
 
@@ -74,6 +78,7 @@ input:checked ~ .menu-content {
 
 #nav-link-support {
     background-color: #81D398;
+    color: #fff;
     padding: .6rem;
     border-radius: .3rem;
 
@@ -350,3 +355,7 @@ input:checked ~ .menu-content {
     box-shadow: .1rem 0 0 .1rem #eee;
 }
 
+
+#main-footer {
+    position: sticky;
+}
