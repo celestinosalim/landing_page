@@ -20,6 +20,7 @@ body {
 
 a{
     text-decoration: none;
+    color: #eee;
 }
 
 .btn-purple {
@@ -334,6 +335,100 @@ input:checked ~ .menu-content {
     box-shadow: .1rem 0 0 .1rem #eee;
 }
 
+.footer {
+    width: 100vw;
+    height: 40vh;
+    min-height: 48rem;
+    background: #736EDF;
+    color: #eee;
+    overflow: hidden;
+}
+
+.main-footer{
+    position: relative;
+    top: 5rem;
+    text-align: center;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: content-box;
+    flex-direction: row;
+    display: inline-grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 40% 40% 5%;
+}
+
+.footer-div { 
+    display: flex;
+    flex-direction: column;
+    font-size: 1.15rem;
+    line-height: 3rem;
+}
+
+#phone {
+    font-weight: 550;
+    display: flex;
+}
+
+#phone-logo {
+    filter: brightness(0) invert(1);
+    transform: rotate(265deg);
+    margin-right: .2rem;
+}
+
+#email {
+    margin-top: 1.2rem;
+    display: flex;
+}
+#email-text {
+    opacity: .5; 
+}
+#email-text:hover {
+    opacity: 1
+}
+#email-logo {
+    margin-right: .2rem;
+}
+
+
+#address {
+    margin-top: 1.2rem;
+    display: flex;
+    line-height: 1.5rem;   
+}
+
+#address-logo {
+    font-size: 1.3rem;
+    filter: brightness(100)
+
+}
+
+#address-text {
+    text-align: left;
+    opacity: .5;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;   
+}
+
+#address-text:hover {
+    opacity: 1
+}
+
+.footer-col-header {
+    font-weight: 550;
+    font-size: 1.1em;
+}
+
+.footer-col-link {
+    opacity: .5;
+}
+
+.footer-col-link:hover {
+    opacity: 1;
+}
+
 
 
 
@@ -364,10 +459,5 @@ input:checked ~ .menu-content {
         margin-left: 25%;
         width: 50vw;
     }
-
-    #main-footer {
-        top: 155rem;
-    }
-
 }
 
