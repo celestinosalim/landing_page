@@ -134,13 +134,13 @@ input:checked ~ .menu-content {
 }
 
 .search-text {
-    transform: translateX(-11%);
+    transform: translateX(-13%);
     white-space: nowrap;
     font-size: 1.3rem;
 }
 
 #input-text {
-    height: 2.6rem;
+    height: 3.7rem;
     width: 100%;
     border-radius: 5px;
     border: none;
@@ -149,7 +149,7 @@ input:checked ~ .menu-content {
 #input-submit {
     color: #fff;
     background-color:#81D398;
-    padding: .6rem;
+    padding: 1rem;
     border-radius: 5px;
 }
 
@@ -173,7 +173,7 @@ input:checked ~ .menu-content {
 }
 #section-1-learn-text {
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: rgba(255, 255, 255, 0.822); 
     white-space: nowrap;
 }
