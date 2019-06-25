@@ -11,7 +11,7 @@ html {
     font-size: 10px;
     line-height: 1.7;
     overflow-x: hidden;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -112,10 +112,13 @@ input:checked ~ .menu-content {
 }
 
 .heading-primary {
+    width: 25rem;
     color: #fff;
     backface-visibility: hidden;
     margin-bottom: 2rem;
-    font-size: 2.1rem; 
+    font-size: 2.6rem; 
+    font-weight: 550;
+    line-height: 1.3;
 }
 
 .heading-primary-main {
@@ -131,14 +134,14 @@ input:checked ~ .menu-content {
 }
 
 .search-text {
-    transform: translateX(-29%);
+    transform: translateX(-11%);
     white-space: nowrap;
     font-size: 1.3rem;
 }
 
 #input-text {
     height: 2.6rem;
-    width: 130%;
+    width: 100%;
     border-radius: 5px;
     border: none;
 }
@@ -329,24 +332,6 @@ input:checked ~ .menu-content {
     padding: .5rem;
     background: #ffffff;
     box-shadow: .1rem 0 0 .1rem #eee;
-}
-
-
-#main-footer {
-    top: 175rem;
-    position: absolute;
-    min-height: 20rem;
-    width: 100%;
-    background-color: #736EDF;
-    overflow: hidden;
-    color: #fff;
-    padding-top: 2rem;
-    text-align: center;    
-    font-size: 1.2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
 }
 
 
