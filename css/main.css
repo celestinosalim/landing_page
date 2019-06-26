@@ -43,6 +43,7 @@ a{
     position: fixed;
     z-index: 1;
     overflow: hidden;
+    width: 100%;
 }
 
 .navbar label {
@@ -58,14 +59,25 @@ input#menu {
 }
 
 .navbar ul {
+    width: 100%;
+    justify-content: center;
     padding: 1rem;
-    /* background-color: #eee; */
     list-style-type: none;
+    display: inline-flex;
 }
+
+.navbar-ul.scrolled {
+    background-color: #742ED1 !important;
+    transition: background-color 200ms linear;
+  }
 
 .navbar a {
     color: rgb(196, 193, 243);
     display: inline-block;
+    padding: .3rem;
+    font-size: .9rem;
+    font-weight: 550;
+
 }
 
 .menu-content {
