@@ -342,13 +342,10 @@ input:checked ~ .menu-content {
 .section-4 {
     z-index: -6;
     position: relative;
-    top: 0rem;
-    min-height: 22rem;
+    min-height: 15rem;
     display: flex;
     justify-content: center;
     font-size: 1.4rem;
-    /* background: 
-    linear-gradient( -369deg, rgba(216, 220, 223, 0.486) 76%, #FFF 76.1%); */
 }
 
 #section-3-4-bg {
@@ -565,7 +562,6 @@ input:checked ~ .menu-content {
     }
 
 
-
     .menu-content {
         width: 100%;
     }
@@ -610,6 +606,26 @@ input:checked ~ .menu-content {
     .section-1-arrow-div {
         top: 64vh;
     }
+}
+
+@media (min-width: 800px) {
+    .section-4 {
+        justify-content: space-around;
+        font-size: 1.4rem;
+    }
+
+    .section-4-text {
+        top: 0;
+        position: unset;
+        align-self: center;
+    }
+
+    .section-4-buttons {
+        top: 0;
+        position: unset;
+        align-self: center;
+    }
+
 }
 
 @media (min-width: 990px) {
