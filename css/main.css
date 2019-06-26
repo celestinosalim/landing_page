@@ -553,6 +553,11 @@ input:checked ~ .menu-content {
         padding: 0;
     }
 
+    .navbar label {
+        padding: 0rem 0rem;
+        display: inline;
+    }
+
     .navbar ul{
         padding: .3rem;
     }
