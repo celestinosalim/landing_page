@@ -645,7 +645,7 @@ input:checked ~ .menu-content {
         }
     
     #section-3-4-bg {
-        background: linear-gradient(-10deg, rgba(216, 220, 223, 0.486) 50%, #FFF 50.1%);
+        background: linear-gradient(-10deg, rgba(216, 220, 223, 0.486) 45%, #FFF 45.1%);
     }
     
     
@@ -707,6 +707,25 @@ input:checked ~ .menu-content {
 }
 
 @media (min-width: 1200px){
+
+    .card {
+        width: 45rem;
+        padding: 2.3rem;
+    }
+    .card-content {
+        top: 2rem;
+        left: 9rem;
+        right: .7rem;
+        line-height: 1.1;
+    }
+
+    .card-image img{
+        position: relative;
+        transform: translateX(-2.29rem);
+    }
+
+
+
     #logo {
         padding-right: 40rem;
     }
