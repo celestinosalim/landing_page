@@ -35,7 +35,8 @@ a{
 }
 
 .btn-purple:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
+    opacity: .8;
 }
 
 #logo {
