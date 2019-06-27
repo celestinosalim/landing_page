@@ -34,6 +34,10 @@ a{
     box-shadow:  0 0 1rem rgba(0, 0, 0, 0.281);
 }
 
+.btn-purple:hover {
+    transform: scale(1.1);
+}
+
 #logo {
     display: inline-block;
     padding-top: .3rem;
