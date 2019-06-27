@@ -5,7 +5,14 @@
     <title>MyWebNow</title>
     <meta name="description" content="Code Challenge for Thesis">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- preloading -->
+    <link rel="preload" href="css/main.css" as="style">
+    <link rel="preload" href="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" as="script">
+
+    <!-- stylesheets -->
     <link rel="stylesheet" href="css/main.css">
+    
 </head>
 <body>
     
@@ -204,7 +211,7 @@
                         <span id="address">
 
                             <span id="address-logo">
-                                📍
+                                <img src="/img/address.png" alt="address">
                             </span>
 
                             <span id="address-text">
@@ -246,6 +253,7 @@
                     </div>
                   </footer>
 </body>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="navbar.js"></script>
+<script async src="navbar.js"></script>
 </html>
