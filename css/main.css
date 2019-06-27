@@ -603,9 +603,6 @@ a#section-1-arrow:hover {
     #nav-link-support {
         margin-top: .5rem;
     }
-    .section-1-arrow-div {
-        top: 68vh;
-    }
 }
 
 @media (min-width: 470px) {
