@@ -67,21 +67,6 @@ input#menu {
     display: inline-flex;
 }
 
-.navbar-ul.scrolled-1 {
-    background-color:#7448D7 !important;
-    transition: background-color 300ms linear;
-  }
-
-.navbar-ul.scrolled-2 {
-    background-color:#736EDF !important;
-    transition: background-color 300ms linear;
-}
-
-.navbar-ul.scrolled-3 {
-    background-color: white !important;
-    transition: background-color 300ms linear;
-}
-
 .navbar a {
     color: rgb(196, 193, 243);
     display: inline-block;
@@ -93,6 +78,21 @@ input#menu {
 .menu-content {
     max-height: 0;
     overflow: hidden;
+}
+
+.menu-content.scrolled-1 {
+    background-color:#7448D7 !important;
+    transition: background-color 300ms linear;
+  }
+
+.menu-content.scrolled-2 {
+    background-color:#736EDF !important;
+    transition: background-color 300ms linear;
+}
+
+.menu-content.scrolled-3 {
+    background-color: white !important;
+    transition: background-color 300ms linear;
 }
 
 input:checked ~ .menu-content {
@@ -587,6 +587,7 @@ input:checked ~ .menu-content {
 
     .menu-content {
         width: 100%;
+        padding-top: 1rem;
     }
     .navbar label {
         opacity: 0;
