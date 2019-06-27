@@ -290,6 +290,7 @@ input:checked ~ .menu-content {
 
 .card {
     margin: 1rem auto;
+    padding-right: 1rem;
     position: relative;
     padding: 4rem 0rem;
     text-align: left;
@@ -311,6 +312,7 @@ input:checked ~ .menu-content {
 .card-content {
     position: absolute;
     left: 7rem;
+    right: .5rem;
     top: 3rem;
 }
 
