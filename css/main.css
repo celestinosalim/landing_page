@@ -51,8 +51,8 @@ a{
     display: inline-block;
     padding-top: .3rem;
     padding-bottom: 0rem;
-    padding-right: 4rem;
-    font-size: 1.3rem;
+    padding-right: 1rem;
+    font-size: 1rem;
     font-weight: 550;
     color: white;
 }
@@ -200,7 +200,7 @@ input:checked ~ .menu-content {
 }
 
 .search-text {
-    transform: translateX(-13%);
+    transform: translateX(-10%);
     white-space: nowrap;
 }
 
@@ -251,7 +251,7 @@ a#section-1-arrow:hover {
 
 .section-1-learn-div {
     position: relative;
-    top: 55vh;
+    top: 0;
 }
 #section-1-learn-text {
     text-transform: uppercase;
@@ -262,7 +262,7 @@ a#section-1-arrow:hover {
 
 .section-1-arrow-div {
     position: absolute;
-    top: 67vh;
+    top: 11vh;
     left: 40%;
 }
 
@@ -283,6 +283,9 @@ a#section-1-arrow:hover {
 
 /* SECTION 2 */
 .section-2 {
+    position: relative;
+    top: 0;
+    z-index: 3;
     margin: 3rem 2rem;
     text-align: center;
     font-size: 1.3rem;
@@ -400,7 +403,7 @@ a#section-1-arrow:hover {
 }
 
 .section-4 {
-    z-index: -6;
+    z-index: 20;
     position: relative;
     min-height: 15rem;
     display: flex;
@@ -409,15 +412,16 @@ a#section-1-arrow:hover {
 }
 
 #section-3-4-bg {
-    position: relative;
+    position: absolute;
     z-index: -7;
-    min-height: 100%;
+    min-height: 110vh;
+    width: 100%;
     background: linear-gradient(-30deg, rgba(216, 220, 223, 0.486) 35%, #FFF 35.1%);
 }
 
 .section-4-text {
     position: absolute;
-    top: 5rem;
+    top: 0rem;
     color:#5853b3d3;
     
 }
@@ -430,7 +434,7 @@ a#section-1-arrow:hover {
 
 .section-4-buttons{
     position: absolute;
-    top: 11rem;
+    top: 6rem;
 }
 
 #btn-contactus {
