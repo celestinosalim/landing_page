@@ -93,6 +93,12 @@ input#menu {
     font-weight: 550;
 }
 
+.navbar a:hover {
+    color:#F5F9FC;
+    background: #736EDF;
+    border-radius: 5px;
+}
+
 .menu-content {
     max-height: 0;
     overflow: hidden;
@@ -124,8 +130,11 @@ input:checked ~ .menu-content {
     padding: .6rem;
     border-radius: .3rem;
     box-shadow:  0 0 1rem rgba(0, 0, 0, 0.281);
-    
+}
 
+#nav-link-support:hover {
+    transform: scale(1.03);
+    box-shadow:  0 0 2rem rgba(0, 0, 0, 0.400);
 }
 
 
@@ -200,10 +209,20 @@ input:checked ~ .menu-content {
     box-shadow:  0 0 1rem rgba(0, 0, 0, 0.281);
 }
 
+a#input-submit:hover {
+    transform: scale(1.03);
+    box-shadow:  0 0 2rem rgba(0, 0, 0, 0.400);
+}
+
 #input-text::placeholder {
     padding-left: 1.3rem;
     font-size: 1.1rem;
     opacity: .5;
+}
+
+a#section-1-arrow:hover {
+        transform: scale(1.03);
+        box-shadow:  0 0 2rem rgba(0, 0, 0, 0.400);
 }
 
 
