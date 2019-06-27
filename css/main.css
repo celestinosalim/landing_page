@@ -479,6 +479,19 @@ input:checked ~ .menu-content {
 }
 
 
+.social-media {
+    grid-column: 1 / span 2;
+    padding: 1rem;
+}
+
+.social-media-logo {
+    padding: 2rem;
+}
+
+.social-media-logo img {
+    width: 2rem;
+    opacity: .5;
+}
 
 
 /* MEDIA QUERIES */
