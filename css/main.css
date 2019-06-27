@@ -162,20 +162,21 @@ input:checked ~ .menu-content {
 .search-text {
     transform: translateX(-13%);
     white-space: nowrap;
-    font-size: 1.1rem;
 }
 
 #input-text {
-    height: 3.77rem;
+    height: 3.4rem;
     width: 100%;
     border-radius: 5px;
     border: none;
+    font-size: 1rem;
 }
 
 #input-submit {
     color: #fff;
     background-color:#81D398;
-    padding: 1rem;
+    padding: .9rem;
+    font-size: 1rem;
     display: inline-block;
     border-radius: 5px;
     box-shadow:  0 0 1rem rgba(0, 0, 0, 0.281);
@@ -415,7 +416,8 @@ input:checked ~ .menu-content {
 
 .footer-div { 
     display: flex;
-    justify-content: center;
+    align-items: center;
+    text-align: center;
     flex-direction: column;
     font-size: 1.15rem;
     line-height: 3rem;
@@ -506,10 +508,25 @@ input:checked ~ .menu-content {
 @media (min-width: 335px) {
     .footer-div {
         line-height: 2.6rem;
+        font-size: 1.5rem;
     }
     #phone, #email, #address {
         justify-content: center;
     }
+    #phone-logo  {
+        margin-right: 1rem;
+        display: inline-block;
+    }
+    #email-logo {
+        margin-right: .6rem;
+        display:inline-block;
+        margin-left: 2rem;
+    }
+    #address-logo {
+        display: inline-block;
+        margin-right: 1rem;
+        margin-left: 1.25rem;
+    }    
 }
 
 
@@ -702,7 +719,7 @@ input:checked ~ .menu-content {
       grid-column-end: 2;
       grid-row: 2;
       margin: auto 1.5rem;
-        justify-self: start;
+      justify-self: start;
     }
     
 }
@@ -763,7 +780,7 @@ input:checked ~ .menu-content {
 
     .main-footer{
         top: 7rem;
-        grid-template-columns: 25% 13.33% 13.33% 13.33% 10%;
+        grid-template-columns: 25% 15.33% 15.33% 15.33% 10%;
         grid-template-rows: 1fr;
         align-items: center;
     }
@@ -772,6 +789,19 @@ input:checked ~ .menu-content {
         text-align: left;
         width: 100%;
     }
+
+    #input-text {
+        height: 3.77rem;
+    }
+    
+    #input-submit {
+        padding: 1rem;
+    }
+    
+    #input-text::placeholder {
+        padding-left: 1.3rem;
+    }
+    
 
     #phone-logo  {
         margin-right: 1rem;
@@ -803,7 +833,7 @@ input:checked ~ .menu-content {
         display: inherit;
         text-align: start;   
         margin: 1rem 0;
-        align-self: flex-start;
+        justify-content: center;
 
     }
 
