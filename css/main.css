@@ -44,6 +44,10 @@ a{
     color: white;
 }
 
+#logo.logo-color {
+    color: #736EDF;
+}
+
 /* NAVBAR */
 
 .navbar {
@@ -690,6 +694,10 @@ input:checked ~ .menu-content {
     #nav-link-support {
         margin-top: 0;
     }    
+    
+    #login {
+        padding-right: 1rem;
+    }
     
     .grid {
         display: inline-grid;
