@@ -36,7 +36,7 @@ a{
 
 .btn-purple:hover {
     transform: scale(1.03);
-    opacity: .8;
+    box-shadow:  0 0 2rem rgba(0, 0, 0, 0.400);
 }
 
 #logo {
